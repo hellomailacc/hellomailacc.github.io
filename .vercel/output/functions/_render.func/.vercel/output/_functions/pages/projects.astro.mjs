@@ -1,8 +1,8 @@
 /* empty css                                  */
 import { a as createComponent, r as renderTemplate, e as renderComponent, m as maybeRenderHead } from '../chunks/astro/server_DHco00c9.mjs';
 import 'kleur/colors';
-import { g as getCollection, P as PROJECTS } from '../chunks/consts_BZEPANEe.mjs';
-import { $ as $$Container, a as $$PageLayout } from '../chunks/PageLayout_3TpIZazc.mjs';
+import { g as getCollection, P as PROJECTS } from '../chunks/consts_CAkFfU1j.mjs';
+import { $ as $$Container, a as $$PageLayout } from '../chunks/PageLayout_BbgqKFz6.mjs';
 import { $ as $$ArrowCard } from '../chunks/ArrowCard_B5-ToVUC.mjs';
 export { renderers } from '../renderers.mjs';
 

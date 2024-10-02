@@ -3,7 +3,7 @@ import 'kleur/colors';
 /* empty css                          */
 import { clsx } from 'clsx';
 import { twMerge } from 'tailwind-merge';
-import { S as SITE } from './consts_CYcyDTup.mjs';
+import { S as SITE } from './consts_BrlzcrFA.mjs';
 
 const inter400 = "/_astro/inter-latin-400-normal.BOOGhInR.woff2";
 
@@ -13,9 +13,9 @@ const lora400 = "/_astro/lora-latin-400-normal.CvHVDnm4.woff2";
 
 const lora600 = "/_astro/lora-latin-600-normal.DUWh3m6k.woff2";
 
-const $$Astro$3 = createAstro("https://imahmut.com");
+const $$Astro$4 = createAstro("https://imahmut.com");
 const $$ViewTransitions = createComponent(($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro$3, $$props, $$slots);
+  const Astro2 = $$result.createAstro($$Astro$4, $$props, $$slots);
   Astro2.self = $$ViewTransitions;
   const { fallback = "animate" } = Astro2.props;
   return renderTemplate`<meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback"${addAttribute(fallback, "content")}>`;
@@ -25,9 +25,9 @@ var __freeze = Object.freeze;
 var __defProp = Object.defineProperty;
 var __template = (cooked, raw) => __freeze(__defProp(cooked, "raw", { value: __freeze(raw || cooked.slice()) }));
 var _a;
-const $$Astro$2 = createAstro("https://imahmut.com");
+const $$Astro$3 = createAstro("https://imahmut.com");
 const $$Head = createComponent(($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro$2, $$props, $$slots);
+  const Astro2 = $$result.createAstro($$Astro$3, $$props, $$slots);
   Astro2.self = $$Head;
   const canonicalURL = new URL(Astro2.url.pathname, Astro2.site);
   const { title, description, image = "/nano.png" } = Astro2.props;
@@ -64,9 +64,9 @@ function dateRange(startDate, endDate) {
   return `${startMonth} ${startYear} - ${endMonth}${endYear}`;
 }
 
-const $$Astro$1 = createAstro("https://imahmut.com");
+const $$Astro$2 = createAstro("https://imahmut.com");
 const $$Link = createComponent(($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro$1, $$props, $$slots);
+  const Astro2 = $$result.createAstro($$Astro$2, $$props, $$slots);
   Astro2.self = $$Link;
   const { href, external, underline = true, ...rest } = Astro2.props;
   return renderTemplate`${maybeRenderHead()}<a${addAttribute(href, "href")}${addAttribute(external ? "_blank" : "_self", "target")}${addAttribute(cn("inline-block decoration-black/15 dark:decoration-white/30 hover:decoration-black/25 hover:dark:decoration-white/50 text-current hover:text-black hover:dark:text-white transition-colors duration-300 ease-in-out", underline && "underline underline-offset-2"), "class")}${spreadAttributes(rest)}> ${renderSlot($$result, $$slots["default"])} </a>`;
@@ -95,12 +95,21 @@ const $$Footer = createComponent(($$result, $$props, $$slots) => {
 &copy; 2024 ${`|`} ${SITE.NAME} </div> <div class="flex flex-wrap gap-1 items-center"> <button id="light-theme-button" aria-label="Light theme" class="group size-8 flex items-center justify-center rounded-full"> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="group-hover:stroke-black group-hover:dark:stroke-white transition-colors duration-300 ease-in-out"> <circle cx="12" cy="12" r="5"></circle> <line x1="12" y1="1" x2="12" y2="3"></line> <line x1="12" y1="21" x2="12" y2="23"></line> <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line> <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line> <line x1="1" y1="12" x2="3" y2="12"></line> <line x1="21" y1="12" x2="23" y2="12"></line> <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line> <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line> </svg> </button> <button id="dark-theme-button" aria-label="Dark theme" class="group size-8 flex items-center justify-center rounded-full"> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="group-hover:stroke-black group-hover:dark:stroke-white transition-colors duration-300 ease-in-out"> <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path> </svg> </button> <button id="system-theme-button" aria-label="System theme" class="group size-8 flex items-center justify-center rounded-full"> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="group-hover:stroke-black group-hover:dark:stroke-white transition-colors duration-300 ease-in-out"> <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect> <line x1="8" y1="21" x2="16" y2="21"></line> <line x1="12" y1="17" x2="12" y2="21"></line> </svg> </button> </div> </div> ` })} </footer>`;
 }, "C:/Users/Mahmut/Desktop/Astro Projeler/astro-nano-mason/src/components/Footer.astro", void 0);
 
+const $$Astro$1 = createAstro("https://imahmut.com");
+const $$Index = createComponent(($$result, $$props, $$slots) => {
+  const Astro2 = $$result.createAstro($$Astro$1, $$props, $$slots);
+  Astro2.self = $$Index;
+  const propsStr = JSON.stringify(Astro2.props);
+  const paramsStr = JSON.stringify(Astro2.params);
+  return renderTemplate`${renderComponent($$result, "vercel-speed-insights", "vercel-speed-insights", { "data-props": propsStr, "data-params": paramsStr, "data-pathname": Astro2.url.pathname })} `;
+}, "C:/Users/Mahmut/Desktop/Astro Projeler/astro-nano-mason/node_modules/@vercel/speed-insights/dist/astro/index.astro", void 0);
+
 const $$Astro = createAstro("https://imahmut.com");
 const $$PageLayout = createComponent(($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro, $$props, $$slots);
   Astro2.self = $$PageLayout;
   const { title, description } = Astro2.props;
-  return renderTemplate`<html lang="en"> <head>${renderComponent($$result, "Head", $$Head, { "title": `${title} | ${SITE.NAME}`, "description": description })}${renderHead()}</head> <body> ${renderComponent($$result, "Header", $$Header, {})} <main> ${renderSlot($$result, $$slots["default"])} </main> ${renderComponent($$result, "Footer", $$Footer, {})} </body></html>`;
+  return renderTemplate`<html lang="en"> <head>${renderComponent($$result, "Head", $$Head, { "title": `${title} | ${SITE.NAME}`, "description": description })}${renderHead()}</head> <body> ${renderComponent($$result, "Header", $$Header, {})} <main> ${renderSlot($$result, $$slots["default"])} </main> ${renderComponent($$result, "Footer", $$Footer, {})} ${renderComponent($$result, "SpeedInsights", $$Index, {})} </body></html>`;
 }, "C:/Users/Mahmut/Desktop/Astro Projeler/astro-nano-mason/src/layouts/PageLayout.astro", void 0);
 
 export { $$Container as $, $$PageLayout as a, $$Link as b, dateRange as d, readingTime as r };

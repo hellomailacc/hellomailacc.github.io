@@ -1,8 +1,8 @@
 /* empty css                                  */
 import { a as createComponent, r as renderTemplate, e as renderComponent, m as maybeRenderHead } from '../chunks/astro/server_yI3J32nT.mjs';
 import 'kleur/colors';
-import { g as getCollection, W as WORK } from '../chunks/consts_CYcyDTup.mjs';
-import { $ as $$Container, d as dateRange, a as $$PageLayout } from '../chunks/PageLayout_DacYgDoJ.mjs';
+import { g as getCollection, W as WORK } from '../chunks/consts_BrlzcrFA.mjs';
+import { $ as $$Container, d as dateRange, a as $$PageLayout } from '../chunks/PageLayout_B2Qe7L0a.mjs';
 export { renderers } from '../renderers.mjs';
 
 const $$Index = createComponent(async ($$result, $$props, $$slots) => {

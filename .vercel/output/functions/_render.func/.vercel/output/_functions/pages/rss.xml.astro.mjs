@@ -1,5 +1,5 @@
 import rss from '@astrojs/rss';
-import { g as getCollection, H as HOME } from '../chunks/consts_CYcyDTup.mjs';
+import { g as getCollection, H as HOME } from '../chunks/consts_BrlzcrFA.mjs';
 export { renderers } from '../renderers.mjs';
 
 async function GET(context) {

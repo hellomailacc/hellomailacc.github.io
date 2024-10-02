@@ -1,19 +1,10 @@
 /* empty css                                  */
-import { c as createAstro, a as createComponent, r as renderTemplate, e as renderComponent, m as maybeRenderHead } from '../chunks/astro/server_yI3J32nT.mjs';
+import { a as createComponent, r as renderTemplate, e as renderComponent, m as maybeRenderHead } from '../chunks/astro/server_yI3J32nT.mjs';
 import 'kleur/colors';
-import { g as getCollection, S as SITE, a as SOCIALS, H as HOME } from '../chunks/consts_CYcyDTup.mjs';
-import { $ as $$Container, b as $$Link, a as $$PageLayout } from '../chunks/PageLayout_DacYgDoJ.mjs';
+import { g as getCollection, S as SITE, a as SOCIALS, H as HOME } from '../chunks/consts_BrlzcrFA.mjs';
+import { $ as $$Container, b as $$Link, a as $$PageLayout } from '../chunks/PageLayout_B2Qe7L0a.mjs';
 import { $ as $$ArrowCard } from '../chunks/ArrowCard_C9qReQGj.mjs';
 export { renderers } from '../renderers.mjs';
-
-const $$Astro = createAstro("https://imahmut.com");
-const $$Index$1 = createComponent(($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro, $$props, $$slots);
-  Astro2.self = $$Index$1;
-  const propsStr = JSON.stringify(Astro2.props);
-  const paramsStr = JSON.stringify(Astro2.params);
-  return renderTemplate`${renderComponent($$result, "vercel-speed-insights", "vercel-speed-insights", { "data-props": propsStr, "data-params": paramsStr, "data-pathname": Astro2.url.pathname })} `;
-}, "C:/Users/Mahmut/Desktop/Astro Projeler/astro-nano-mason/node_modules/@vercel/speed-insights/dist/astro/index.astro", void 0);
 
 const $$Index = createComponent(async ($$result, $$props, $$slots) => {
   (await getCollection("blog")).filter((post) => !post.data.draft).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf()).slice(0, SITE.NUM_POSTS_ON_HOMEPAGE);
@@ -61,7 +52,7 @@ Connectons-nous
 Si vous souhaitez me contacter à propos de quelque chose ou simplement pour me dire bonjour, contactez-moi sur les réseaux sociaux ou envoyez-moi un e-mail.
 </p> </article> <ul class="flex flex-wrap gap-2"> ${SOCIALS.map((SOCIAL) => renderTemplate`<li class="flex gap-x-2 text-nowrap"> ${renderComponent($$result3, "Link", $$Link, { "href": SOCIAL.HREF, "external": true, "aria-label": `${SITE.NAME} on ${SOCIAL.NAME}` }, { "default": ($$result4) => renderTemplate`${SOCIAL.NAME}` })} ${"/"} </li>`)} <li class="line-clamp-1"> ${renderComponent($$result3, "Link", $$Link, { "href": `mailto:${SITE.EMAIL}`, "aria-label": `Email ${SITE.NAME}` }, { "default": ($$result4) => renderTemplate`${SITE.EMAIL}` })} </li> <li> ${renderComponent($$result3, "Link", $$Link, { "href": `https://www.google.com/maps/place/24+Rue+de+la+Reine+Jeanne,+06000+Nice,+Fransa/@43.7058645,7.2584455,17z/data=!3m1!4b1!4m6!3m5!1s0x12cdd0066111cfdb:0xd87c9010dd2c8cdb!8m2!3d43.7058607!4d7.2610204!16s%2Fg%2F11b8v7gg2n?entry=ttu&g_ep=EgoyMDI0MDkyNS4wIKXMDSoASAFQAw%3D%3D` }, { "default": ($$result4) => renderTemplate`
 Adresse ;  24 Rue de la Reine Jeanne Nice, Provence-Alpes-Côte d'Azur
-` })} </li> </ul> </section> ${renderComponent($$result3, "SpeedInsights", $$Index$1, {})} </div> ` })} ` })}`;
+` })} </li> </ul> </section> </div> ` })} ` })}`;
 }, "C:/Users/Mahmut/Desktop/Astro Projeler/astro-nano-mason/src/pages/index.astro", void 0);
 
 const $$file = "C:/Users/Mahmut/Desktop/Astro Projeler/astro-nano-mason/src/pages/index.astro";

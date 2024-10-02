@@ -1,5 +1,5 @@
 import { a as createComponent, r as renderTemplate, m as maybeRenderHead, _ as __astro_tag_component__, F as Fragment, g as createVNode } from './astro/server_DHco00c9.mjs';
-import { $ as $$Image } from './_astro_assets_DOyRmr-M.mjs';
+import { $ as $$Image } from './_astro_assets_CZ6aNYvB.mjs';
 import { $ as $$FormattedDate } from './FormattedDate_DU5D1vku.mjs';
 import 'kleur/colors';
 import 'clsx';

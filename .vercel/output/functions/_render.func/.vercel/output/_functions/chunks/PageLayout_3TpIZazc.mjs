@@ -3,7 +3,7 @@ import 'kleur/colors';
 /* empty css                          */
 import { clsx } from 'clsx';
 import { twMerge } from 'tailwind-merge';
-import { S as SITE } from './consts_hh0OUwqE.mjs';
+import { S as SITE } from './consts_BZEPANEe.mjs';
 
 const inter400 = "/_astro/inter-latin-400-normal.BOOGhInR.woff2";
 
@@ -19,7 +19,7 @@ const $$ViewTransitions = createComponent(($$result, $$props, $$slots) => {
   Astro2.self = $$ViewTransitions;
   const { fallback = "animate" } = Astro2.props;
   return renderTemplate`<meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback"${addAttribute(fallback, "content")}>`;
-}, "C:/Users/Mahmut/Desktop/Astro Projeler/astro-nano-mason/node_modules/.pnpm/astro@4.15.10_rollup@4.24.0_typescript@5.6.2/node_modules/astro/components/ViewTransitions.astro", void 0);
+}, "C:/Users/Mahmut/Desktop/Astro Projeler/astro-nano-mason/node_modules/astro/components/ViewTransitions.astro", void 0);
 
 var __freeze = Object.freeze;
 var __defProp = Object.defineProperty;
@@ -102,7 +102,7 @@ const $$Index = createComponent(($$result, $$props, $$slots) => {
   const propsStr = JSON.stringify(Astro2.props);
   const paramsStr = JSON.stringify(Astro2.params);
   return renderTemplate`${renderComponent($$result, "vercel-speed-insights", "vercel-speed-insights", { "data-props": propsStr, "data-params": paramsStr, "data-pathname": Astro2.url.pathname })} `;
-}, "C:/Users/Mahmut/Desktop/Astro Projeler/astro-nano-mason/node_modules/.pnpm/@vercel+speed-insights@1.0.12/node_modules/@vercel/speed-insights/dist/astro/index.astro", void 0);
+}, "C:/Users/Mahmut/Desktop/Astro Projeler/astro-nano-mason/node_modules/@vercel/speed-insights/dist/astro/index.astro", void 0);
 
 const $$Astro = createAstro("https://imahmut.com");
 const $$PageLayout = createComponent(($$result, $$props, $$slots) => {

@@ -1,5 +1,5 @@
 import { a as createComponent, r as renderTemplate, m as maybeRenderHead, u as unescapeHTML, s as spreadAttributes } from './astro/server_DHco00c9.mjs';
-import { g as getImage } from './_astro_assets_DOyRmr-M.mjs';
+import { g as getImage } from './_astro_assets_CZ6aNYvB.mjs';
 import 'clsx';
 
 const Astro__1xRlO2 = new Proxy({"src":"/_astro/spongebob.DNKR31Tf.webp","width":440,"height":440,"format":"webp"}, {

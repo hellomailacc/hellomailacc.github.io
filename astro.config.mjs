@@ -10,6 +10,6 @@ export default defineConfig({
   adapter: vercel({
     webAnalytics: { enabled: true },
   }),
-  site: "https://imahmut.com",
+  site: "https://github.com/hellomailacc/hellomailacc.github.io",
   integrations: [mdx(), sitemap(), tailwind()],
 });

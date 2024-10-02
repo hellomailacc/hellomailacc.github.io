@@ -1,6 +1,4 @@
 ---
-import SpeedInsights from "@vercel/speed-insights/astro";
-
 import { getCollection } from "astro:content";
 import Container from "@components/Container.astro";
 import PageLayout from "@layouts/PageLayout.astro";
@@ -166,6 +164,5 @@ const work = await Promise.all(
         </ul>
       </section>
     </div>
-    <SpeedInsights/>
   </Container>
 </PageLayout>

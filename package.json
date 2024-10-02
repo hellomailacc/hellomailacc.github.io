@@ -28,6 +28,7 @@
     "@vercel/speed-insights": "^1.0.12",
     "astro": "^4.15.10",
     "clsx": "^2.1.1",
+    "cookie": "^0.6.0",
     "eslint": "^8.57.1",
     "eslint-plugin-astro": "^0.32.0",
     "eslint-plugin-jsx-a11y": "^6.10.0",

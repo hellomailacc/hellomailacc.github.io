@@ -1,0 +1,12 @@
+const id = "06-mdx-syntax/index.mdx";
+						const collection = "blog";
+						const slug = "06-mdx-syntax";
+						const body = "\nMDX is largely an extension of markdown with the ability to import `.astro`,\n`.jsx`, `.tsx` and other framework components you have integrated.\n\nThis unlocks a lot of possibilities for creating interactive content.\n\nThis guide will cover the basics of mdx syntax and how to use it, as well as a few examples.\n\n---\n\n### Example 1\n\nImporting a component from the `/components` directory. \n\nThis component will accept a javascript date object and format it as a string.\n\n```astro\nimport DateComp from \"../../../components/FormattedDate.astro\";\n\n<DateComp date={new Date()} />\n```\n\nimport FormattedDate from \"../../../components/FormattedDate.astro\";\n\n<FormattedDate date={new Date()} />\n\n---\n\n### Example 2\n\nImporting a component from a relative path to your content.\n\nThis component will display an alert when you click the button.\n\n```astro\nimport RelativeComponent from \"./component.astro\";\n\n<RelativeComponent />\n```\n\nimport RelativeComponent from \"./component.astro\";\n\n<RelativeComponent />\n\n---\n\nNano is an extremely lightweight theme, with no frameworks, so there aren't\nany examples of react, vue, solid etc. You can integrate these frameworks using\nthe guide below, and also use those components in your mdx files. \n\nDon't forget to \nuse the `client` directive to make them interactive.\n\n```astro\n<ReactComponent client:load />\n```\n\n---\n\n### More Links\n- [MDX Syntax Documentation](https://mdxjs.com/docs/what-is-mdx)\n- [Astro Framework Integrations](https://docs.astro.build/en/guides/integrations-guide)\n- [Astro Usage Documentation](https://docs.astro.build/en/guides/markdown-content/#markdown-and-mdx-pages)\n- **Note:** [Client Directives](https://docs.astro.build/en/reference/directives-reference/#client-directives) are still required to create interactive components. Otherwise, all components in your MDX will render as static HTML (no JavaScript) by default.\n";
+						const data = {title:"MDX syntax guide",description:"Get started writing mdx in markdown.",date:new Date(1710536400000)};
+						const _internal = {
+							type: 'content',
+							filePath: "C:/Users/Mahmut/Desktop/Astro Projeler/astro-nano-mason/src/content/blog/06-mdx-syntax/index.mdx",
+							rawData: undefined,
+						};
+
+export { _internal, body, collection, data, id, slug };
